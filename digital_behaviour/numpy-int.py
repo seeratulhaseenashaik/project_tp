@@ -27,7 +27,7 @@ insta_array[1:4]
 #insta_array=[val/60 for val in insta_array] -> python bit which divides the value of insta_array by 60
 hours=insta_array/60
 diff=insta_array-study_array
-greater_than_100=insta_array>100
-greater=insta_array(insta_array>100)
+greater_than_100=insta_array(insta_array>100)
 count=(insta_array>100).sum()
 greater=insta_array(insta_array>avg)
+print(f"\nApp: {APP} \nTotal Minutes     : {total}  \n Average Minutes   : {avg:.1f}\n Highest Day       : {maxi}  \nLowest Day        : {mini} \nDays Above Avg    : {greater} \n Greater than 100: {greater_than_100}\nHours:{hours} \nDifference:{diff}")
