@@ -16,3 +16,18 @@ insta_array=np.array(insta_list)
 study_array=np.array(study_time)
 
 total=insta_array.sum()
+avg=insta_array.mean()
+maxi=insta_array.max()
+mini=insta_array.min()
+insta_array[0]
+insta_array[-1]
+insta_array[0:3]
+insta_array[-2::]#to print last two values
+insta_array[1:4]
+#insta_array=[val/60 for val in insta_array] -> python bit which divides the value of insta_array by 60
+hours=insta_array/60
+diff=insta_array-study_array
+greater_than_100=insta_array>100
+greater=insta_array(insta_array>100)
+count=(insta_array>100).sum()
+greater=insta_array(insta_array>avg)
